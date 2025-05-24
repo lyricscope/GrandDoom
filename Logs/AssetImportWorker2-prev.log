@@ -1,0 +1,1240 @@
+Using pre-set license
+Built from '6000.0/staging' branch; Version is '6000.0.40f1 (157d81624ddf) revision 1408385'; Using compiler version '193933523'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26100) 64bit Professional' Language: 'ru' Physical Memory: 15706 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.0.40f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+C:/Users/user/source/repos/GrandDoom
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+50536
+-job-worker-count
+5
+-background-job-worker-count
+8
+-gc-helper-count
+1
+Successfully changed project path to: C:/Users/user/source/repos/GrandDoom
+C:/Users/user/source/repos/GrandDoom
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [10544]  Target information:
+
+Player connection [10544]  * "[IP] 192.168.0.192 [Port] 0 [Flags] 2 [Guid] 4204242006 [EditorId] 4204242006 [Version] 1048832 [Id] WindowsEditor(7,WIN-31GB60T5GUO) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [10544] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [10544] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 5
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 3.06 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.0.40f1 (157d81624ddf)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.0.40f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/user/source/repos/GrandDoom/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: AMD Radeon(TM) Graphics (ID=0x164c)
+    Vendor:   ATI
+    VRAM:     7853 MB
+    Driver:   31.0.21921.1000
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.0.40f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.0.40f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.0.40f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56048
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.40f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.003552 seconds.
+- Loaded All Assemblies, in  0.594 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.626 seconds
+Domain Reload Profiling: 1218ms
+	BeginReloadAssembly (206ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (63ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (67ms)
+	LoadAllAssembliesAndSetupDomain (240ms)
+		LoadAssemblies (201ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (236ms)
+			TypeCache.Refresh (234ms)
+				TypeCache.ScanAssembly (214ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (627ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (550ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (43ms)
+			SetLoadedEditorAssemblies (8ms)
+			BeforeProcessingInitializeOnLoad (92ms)
+			ProcessInitializeOnLoadAttributes (312ms)
+			ProcessInitializeOnLoadMethodAttributes (94ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.873 seconds
+Refreshing native plugins compatible for Editor in 1.57 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.857 seconds
+Domain Reload Profiling: 1725ms
+	BeginReloadAssembly (188ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (35ms)
+	RebuildCommonClasses (41ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (43ms)
+	LoadAllAssembliesAndSetupDomain (582ms)
+		LoadAssemblies (427ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (266ms)
+			TypeCache.Refresh (202ms)
+				TypeCache.ScanAssembly (185ms)
+			BuildScriptInfoCaches (49ms)
+			ResolveRequiredComponents (11ms)
+	FinalizeReload (857ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (655ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (121ms)
+			ProcessInitializeOnLoadAttributes (422ms)
+			ProcessInitializeOnLoadMethodAttributes (97ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
+Refreshing native plugins compatible for Editor in 2.15 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 198 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5951 unused Assets / (5.2 MB). Loaded Objects now: 6638.
+Memory consumption went from 157.2 MB to 152.0 MB.
+Total: 14.957100 ms (FindLiveObjects: 1.093200 ms CreateObjectMapping: 1.667000 ms MarkObjects: 6.700600 ms  DeleteObjects: 5.493200 ms)
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  7.922 seconds
+Refreshing native plugins compatible for Editor in 4.43 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.286 seconds
+Domain Reload Profiling: 10203ms
+	BeginReloadAssembly (1484ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (12ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (286ms)
+	RebuildCommonClasses (394ms)
+	RebuildNativeTypeToScriptingClass (26ms)
+	initialDomainReloadingComplete (85ms)
+	LoadAllAssembliesAndSetupDomain (5928ms)
+		LoadAssemblies (6622ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (411ms)
+			TypeCache.Refresh (21ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (355ms)
+			ResolveRequiredComponents (24ms)
+	FinalizeReload (2286ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1381ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (13ms)
+			BeforeProcessingInitializeOnLoad (250ms)
+			ProcessInitializeOnLoadAttributes (1000ms)
+			ProcessInitializeOnLoadMethodAttributes (99ms)
+			AfterProcessingInitializeOnLoad (12ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (24ms)
+Refreshing native plugins compatible for Editor in 2.55 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 23 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5947 unused Assets / (4.5 MB). Loaded Objects now: 6653.
+Memory consumption went from 140.8 MB to 136.3 MB.
+Total: 16.715200 ms (FindLiveObjects: 1.662200 ms CreateObjectMapping: 2.615200 ms MarkObjects: 7.542100 ms  DeleteObjects: 4.892900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 1.71 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5940 unused Assets / (4.6 MB). Loaded Objects now: 6653.
+Memory consumption went from 139.3 MB to 134.7 MB.
+Total: 13.786700 ms (FindLiveObjects: 1.032300 ms CreateObjectMapping: 1.814500 ms MarkObjects: 7.086000 ms  DeleteObjects: 3.852100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.697 seconds
+Refreshing native plugins compatible for Editor in 2.81 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.777 seconds
+Domain Reload Profiling: 3473ms
+	BeginReloadAssembly (420ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (14ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (98ms)
+	RebuildCommonClasses (74ms)
+	RebuildNativeTypeToScriptingClass (23ms)
+	initialDomainReloadingComplete (49ms)
+	LoadAllAssembliesAndSetupDomain (1128ms)
+		LoadAssemblies (974ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (387ms)
+			TypeCache.Refresh (16ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (341ms)
+			ResolveRequiredComponents (20ms)
+	FinalizeReload (1778ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1283ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (7ms)
+			BeforeProcessingInitializeOnLoad (252ms)
+			ProcessInitializeOnLoadAttributes (892ms)
+			ProcessInitializeOnLoadMethodAttributes (116ms)
+			AfterProcessingInitializeOnLoad (10ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (27ms)
+Refreshing native plugins compatible for Editor in 2.89 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5947 unused Assets / (4.8 MB). Loaded Objects now: 6655.
+Memory consumption went from 139.1 MB to 134.3 MB.
+Total: 20.771600 ms (FindLiveObjects: 1.363500 ms CreateObjectMapping: 2.167000 ms MarkObjects: 10.447800 ms  DeleteObjects: 6.790000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 344499.572973 seconds.
+  path: Assets/Scripts/Movement.cs
+  artifactKey: Guid(a328a969df7806e45b6fc371e547683f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Movement.cs using Guid(a328a969df7806e45b6fc371e547683f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'acf10b90889b133b496e7151e681ce3d') in 0.0281301 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 2.74 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5940 unused Assets / (3.6 MB). Loaded Objects now: 6657.
+Memory consumption went from 139.9 MB to 136.2 MB.
+Total: 36.603500 ms (FindLiveObjects: 1.336200 ms CreateObjectMapping: 2.075100 ms MarkObjects: 23.338400 ms  DeleteObjects: 9.851200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 6.397671 seconds.
+  path: Assets/Scripts/Movement.cs
+  artifactKey: Guid(a328a969df7806e45b6fc371e547683f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Movement.cs using Guid(a328a969df7806e45b6fc371e547683f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a472b626661a3c4c33e14b7eafecc211') in 0.0033177 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.826 seconds
+Refreshing native plugins compatible for Editor in 2.02 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.369 seconds
+Domain Reload Profiling: 3195ms
+	BeginReloadAssembly (441ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (26ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (120ms)
+	RebuildCommonClasses (70ms)
+	RebuildNativeTypeToScriptingClass (27ms)
+	initialDomainReloadingComplete (80ms)
+	LoadAllAssembliesAndSetupDomain (1207ms)
+		LoadAssemblies (942ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (442ms)
+			TypeCache.Refresh (22ms)
+				TypeCache.ScanAssembly (1ms)
+			BuildScriptInfoCaches (391ms)
+			ResolveRequiredComponents (21ms)
+	FinalizeReload (1369ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1049ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (7ms)
+			BeforeProcessingInitializeOnLoad (177ms)
+			ProcessInitializeOnLoadAttributes (728ms)
+			ProcessInitializeOnLoadMethodAttributes (120ms)
+			AfterProcessingInitializeOnLoad (12ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (22ms)
+Refreshing native plugins compatible for Editor in 2.10 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5947 unused Assets / (5.0 MB). Loaded Objects now: 6659.
+Memory consumption went from 139.6 MB to 134.7 MB.
+Total: 15.135500 ms (FindLiveObjects: 1.381800 ms CreateObjectMapping: 1.175800 ms MarkObjects: 7.055300 ms  DeleteObjects: 5.519600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 2.52 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5940 unused Assets / (5.2 MB). Loaded Objects now: 6659.
+Memory consumption went from 139.8 MB to 134.7 MB.
+Total: 20.067500 ms (FindLiveObjects: 1.398600 ms CreateObjectMapping: 2.486500 ms MarkObjects: 8.549800 ms  DeleteObjects: 7.630200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 17.045979 seconds.
+  path: Assets/Scripts/Movement.cs
+  artifactKey: Guid(a328a969df7806e45b6fc371e547683f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Movement.cs using Guid(a328a969df7806e45b6fc371e547683f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '830880df004bb71f3a83fbb8808172cf') in 0.0023606 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.455 seconds
+Refreshing native plugins compatible for Editor in 2.26 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.355 seconds
+Domain Reload Profiling: 2807ms
+	BeginReloadAssembly (322ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (16ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (91ms)
+	RebuildCommonClasses (65ms)
+	RebuildNativeTypeToScriptingClass (18ms)
+	initialDomainReloadingComplete (57ms)
+	LoadAllAssembliesAndSetupDomain (990ms)
+		LoadAssemblies (725ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (419ms)
+			TypeCache.Refresh (17ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (369ms)
+			ResolveRequiredComponents (25ms)
+	FinalizeReload (1356ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (978ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (9ms)
+			BeforeProcessingInitializeOnLoad (203ms)
+			ProcessInitializeOnLoadAttributes (649ms)
+			ProcessInitializeOnLoadMethodAttributes (93ms)
+			AfterProcessingInitializeOnLoad (18ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (24ms)
+Refreshing native plugins compatible for Editor in 1.68 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5947 unused Assets / (5.1 MB). Loaded Objects now: 6661.
+Memory consumption went from 139.7 MB to 134.6 MB.
+Total: 17.781400 ms (FindLiveObjects: 1.098900 ms CreateObjectMapping: 1.439600 ms MarkObjects: 10.558000 ms  DeleteObjects: 4.682300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 3.07 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5940 unused Assets / (4.7 MB). Loaded Objects now: 6661.
+Memory consumption went from 139.8 MB to 135.1 MB.
+Total: 20.367900 ms (FindLiveObjects: 1.406800 ms CreateObjectMapping: 1.701500 ms MarkObjects: 10.102300 ms  DeleteObjects: 7.154700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 5.31 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5940 unused Assets / (4.3 MB). Loaded Objects now: 6661.
+Memory consumption went from 139.8 MB to 135.6 MB.
+Total: 37.428800 ms (FindLiveObjects: 3.071300 ms CreateObjectMapping: 6.259200 ms MarkObjects: 16.791600 ms  DeleteObjects: 11.304300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 2.96 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5940 unused Assets / (4.7 MB). Loaded Objects now: 6661.
+Memory consumption went from 139.8 MB to 135.2 MB.
+Total: 23.420400 ms (FindLiveObjects: 2.172600 ms CreateObjectMapping: 2.323600 ms MarkObjects: 10.561100 ms  DeleteObjects: 8.360600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.293 seconds
+Refreshing native plugins compatible for Editor in 1.71 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.169 seconds
+Domain Reload Profiling: 2457ms
+	BeginReloadAssembly (367ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (8ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (95ms)
+	RebuildCommonClasses (55ms)
+	RebuildNativeTypeToScriptingClass (21ms)
+	initialDomainReloadingComplete (56ms)
+	LoadAllAssembliesAndSetupDomain (788ms)
+		LoadAssemblies (685ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (302ms)
+			TypeCache.Refresh (14ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (266ms)
+			ResolveRequiredComponents (17ms)
+	FinalizeReload (1169ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (885ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (7ms)
+			BeforeProcessingInitializeOnLoad (188ms)
+			ProcessInitializeOnLoadAttributes (600ms)
+			ProcessInitializeOnLoadMethodAttributes (75ms)
+			AfterProcessingInitializeOnLoad (12ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (20ms)
+Refreshing native plugins compatible for Editor in 1.82 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5947 unused Assets / (4.6 MB). Loaded Objects now: 6663.
+Memory consumption went from 139.7 MB to 135.1 MB.
+Total: 12.790100 ms (FindLiveObjects: 0.971200 ms CreateObjectMapping: 1.110500 ms MarkObjects: 6.314800 ms  DeleteObjects: 4.391200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 7.31 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5940 unused Assets / (2.6 MB). Loaded Objects now: 6663.
+Memory consumption went from 139.8 MB to 137.2 MB.
+Total: 46.350900 ms (FindLiveObjects: 2.823900 ms CreateObjectMapping: 9.445200 ms MarkObjects: 27.674000 ms  DeleteObjects: 6.404400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.563 seconds
+Refreshing native plugins compatible for Editor in 3.54 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.475 seconds
+Domain Reload Profiling: 3035ms
+	BeginReloadAssembly (588ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (18ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (100ms)
+	RebuildCommonClasses (72ms)
+	RebuildNativeTypeToScriptingClass (31ms)
+	initialDomainReloadingComplete (59ms)
+	LoadAllAssembliesAndSetupDomain (809ms)
+		LoadAssemblies (914ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (289ms)
+			TypeCache.Refresh (14ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (254ms)
+			ResolveRequiredComponents (15ms)
+	FinalizeReload (1476ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1053ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (8ms)
+			BeforeProcessingInitializeOnLoad (216ms)
+			ProcessInitializeOnLoadAttributes (654ms)
+			ProcessInitializeOnLoadMethodAttributes (160ms)
+			AfterProcessingInitializeOnLoad (11ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (30ms)
+Refreshing native plugins compatible for Editor in 4.76 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5947 unused Assets / (4.7 MB). Loaded Objects now: 6665.
+Memory consumption went from 139.7 MB to 135.0 MB.
+Total: 30.786500 ms (FindLiveObjects: 3.382200 ms CreateObjectMapping: 2.224700 ms MarkObjects: 14.210300 ms  DeleteObjects: 10.965900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 2.10 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5940 unused Assets / (4.9 MB). Loaded Objects now: 6665.
+Memory consumption went from 139.8 MB to 134.9 MB.
+Total: 15.398600 ms (FindLiveObjects: 1.032900 ms CreateObjectMapping: 1.332900 ms MarkObjects: 8.014800 ms  DeleteObjects: 5.015900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.717 seconds
+Refreshing native plugins compatible for Editor in 2.23 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.517 seconds
+Domain Reload Profiling: 3226ms
+	BeginReloadAssembly (547ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (15ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (143ms)
+	RebuildCommonClasses (113ms)
+	RebuildNativeTypeToScriptingClass (21ms)
+	initialDomainReloadingComplete (94ms)
+	LoadAllAssembliesAndSetupDomain (934ms)
+		LoadAssemblies (948ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (299ms)
+			TypeCache.Refresh (19ms)
+				TypeCache.ScanAssembly (1ms)
+			BuildScriptInfoCaches (261ms)
+			ResolveRequiredComponents (13ms)
+	FinalizeReload (1518ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1211ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (7ms)
+			BeforeProcessingInitializeOnLoad (176ms)
+			ProcessInitializeOnLoadAttributes (836ms)
+			ProcessInitializeOnLoadMethodAttributes (172ms)
+			AfterProcessingInitializeOnLoad (16ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (43ms)
+Refreshing native plugins compatible for Editor in 10.81 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5947 unused Assets / (4.9 MB). Loaded Objects now: 6667.
+Memory consumption went from 139.7 MB to 134.8 MB.
+Total: 29.989000 ms (FindLiveObjects: 1.900300 ms CreateObjectMapping: 2.940900 ms MarkObjects: 15.932200 ms  DeleteObjects: 9.211600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 2.36 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5940 unused Assets / (4.0 MB). Loaded Objects now: 6667.
+Memory consumption went from 139.8 MB to 135.8 MB.
+Total: 20.910700 ms (FindLiveObjects: 1.902100 ms CreateObjectMapping: 2.039800 ms MarkObjects: 10.713600 ms  DeleteObjects: 6.252800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.366 seconds
+Refreshing native plugins compatible for Editor in 2.52 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.430 seconds
+Domain Reload Profiling: 2792ms
+	BeginReloadAssembly (394ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (13ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (86ms)
+	RebuildCommonClasses (61ms)
+	RebuildNativeTypeToScriptingClass (21ms)
+	initialDomainReloadingComplete (57ms)
+	LoadAllAssembliesAndSetupDomain (829ms)
+		LoadAssemblies (727ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (321ms)
+			TypeCache.Refresh (21ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (281ms)
+			ResolveRequiredComponents (13ms)
+	FinalizeReload (1430ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1074ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (7ms)
+			BeforeProcessingInitializeOnLoad (199ms)
+			ProcessInitializeOnLoadAttributes (691ms)
+			ProcessInitializeOnLoadMethodAttributes (164ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (21ms)
+Refreshing native plugins compatible for Editor in 2.18 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5947 unused Assets / (4.7 MB). Loaded Objects now: 6669.
+Memory consumption went from 139.7 MB to 135.0 MB.
+Total: 21.399200 ms (FindLiveObjects: 1.400400 ms CreateObjectMapping: 2.313000 ms MarkObjects: 8.588700 ms  DeleteObjects: 9.094800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 118.727803 seconds.
+  path: Assets/Scripts/Movement.cs
+  artifactKey: Guid(a328a969df7806e45b6fc371e547683f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Movement.cs using Guid(a328a969df7806e45b6fc371e547683f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'be891de3bc660db86fd63a653960afec') in 0.0032099 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 2.69 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5940 unused Assets / (4.3 MB). Loaded Objects now: 6669.
+Memory consumption went from 139.8 MB to 135.5 MB.
+Total: 17.982900 ms (FindLiveObjects: 1.162200 ms CreateObjectMapping: 1.055200 ms MarkObjects: 8.338900 ms  DeleteObjects: 7.424200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 145.877244 seconds.
+  path: Assets/Scripts/Movement.cs
+  artifactKey: Guid(a328a969df7806e45b6fc371e547683f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Movement.cs using Guid(a328a969df7806e45b6fc371e547683f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ca867d7d9c2cda51084750c0d90f0d37') in 0.0010181 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 2.48 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5940 unused Assets / (4.3 MB). Loaded Objects now: 6669.
+Memory consumption went from 139.8 MB to 135.5 MB.
+Total: 25.307200 ms (FindLiveObjects: 1.554100 ms CreateObjectMapping: 2.598500 ms MarkObjects: 13.107800 ms  DeleteObjects: 8.043300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.312 seconds
+Refreshing native plugins compatible for Editor in 2.07 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.151 seconds
+Domain Reload Profiling: 2464ms
+	BeginReloadAssembly (296ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (8ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (73ms)
+	RebuildCommonClasses (55ms)
+	RebuildNativeTypeToScriptingClass (17ms)
+	initialDomainReloadingComplete (51ms)
+	LoadAllAssembliesAndSetupDomain (893ms)
+		LoadAssemblies (730ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (316ms)
+			TypeCache.Refresh (14ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (280ms)
+			ResolveRequiredComponents (14ms)
+	FinalizeReload (1151ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (799ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (7ms)
+			BeforeProcessingInitializeOnLoad (170ms)
+			ProcessInitializeOnLoadAttributes (512ms)
+			ProcessInitializeOnLoadMethodAttributes (93ms)
+			AfterProcessingInitializeOnLoad (12ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (30ms)
+Refreshing native plugins compatible for Editor in 2.13 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5947 unused Assets / (4.7 MB). Loaded Objects now: 6671.
+Memory consumption went from 139.7 MB to 135.0 MB.
+Total: 15.803000 ms (FindLiveObjects: 1.374800 ms CreateObjectMapping: 0.962700 ms MarkObjects: 8.444400 ms  DeleteObjects: 5.018600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 544.152482 seconds.
+  path: Assets/Models/as.fbx
+  artifactKey: Guid(dbb5d5876e8583b4c8f3c59c8b65b97f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Couldn't register non-exiting asset root folder: 'Library/BuildInstructions'
+AssetDatabase failed to register asset folder Library/BuildInstructions
+Start importing Assets/Models/as.fbx using Guid(dbb5d5876e8583b4c8f3c59c8b65b97f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.6038211 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/models/as.fbx in SourceAssetDB has modification time of '2025-05-23T18:53:10.1976687Z' while content on disk has modification time of '0001-01-01T00:00:00Z' with error code 2
+Stacktrace:
+0x00007ffdc5929dbd (Unity) StackWalker::ShowCallstack
+0x00007ffdc5939d79 (Unity) PlatformStacktrace::GetStacktrace
+0x00007ffdc6ba8bbe (Unity) Stacktrace::GetStacktrace
+0x00007ffdc6de5575 (Unity) GetAssetHashAndValidate
+0x00007ffdc6de3d75 (Unity) AssetVersionBuilder::BuildHashOfSourceAssetArray
+0x00007ffdc6de1efe (Unity) AssetVersionBuilder::BuildAssetVersion
+0x00007ffdc6e20a53 (Unity) CreateAssetVersionBuilder
+0x00007ffdc6e28460 (Unity) ImportToObjects
+0x00007ffdc6e27098 (Unity) ImportAsset
+0x00007ffdc6dc4af1 (Unity) AssetImportWorker::Import
+0x00007ffdc6d76824 (Unity) <lambda_319826b16fd6fd0002c11364be971df3>::operator()
+0x00007ffdc6e5b6de (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)>,asio::io_context::basic_executor_type<std::allocator<void>,0> >::do_complete
+0x00007ffdc6e48f6a (Unity) asio::detail::win_iocp_io_context::do_one
+0x00007ffdc6e4a2d4 (Unity) asio::detail::win_iocp_io_context::run
+0x00007ffdc6e59cfc (Unity) IOService::Run
+0x00007ffdc6da2026 (Unity) RunAssetImportWorkerClientV2
+0x00007ffdc6da20eb (Unity) RunAssetImporterV2
+0x00007ffdc65aae78 (Unity) Application::InitializeProject
+0x00007ffdc6bb31b5 (Unity) UnityMain
+0x00007ff7f4162fba (Unity) __scrt_common_main_seh
+0x00007ffe7f2ae8d7 (KERNEL32) BaseThreadInitThunk
+0x00007ffe8013c5dc (ntdll) RtlUserThreadStart
+
+  ERROR: Build asset version error: assets/models/as.fbx in SourceAssetDB has modification time of '2025-05-23T18:53:10.1976687Z' while content on disk has modification time of '0001-01-01T00:00:00Z' with error code 2
+Stacktrace:
+0x00007ffdc5929dbd (Unity) StackWalker::ShowCallstack
+0x00007ffdc5939d79 (Unity) PlatformStacktrace::GetStacktrace
+0x00007ffdc6ba8bbe (Unity) Stacktrace::GetStacktrace
+0x00007ffdc6de5575 (Unity) GetAssetHashAndValidate
+0x00007ffdc6de3d75 (Unity) AssetVersionBuilder::BuildHashOfSourceAssetArray
+0x00007ffdc6de1efe (Unity) AssetVersionBuilder::BuildAssetVersion
+0x00007ffdc6e20a53 (Unity) CreateAssetVersionBuilder
+0x00007ffdc6e28460 (Unity) ImportToObjects
+0x00007ffdc6e27098 (Unity) ImportAsset
+0x00007ffdc6dc4af1 (Unity) AssetImportWorker::Import
+0x00007ffdc6d76824 (Unity) <lambda_319826b16fd6fd0002c11364be971df3>::operator()
+0x00007ffdc6e5b6de (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)>,asio::io_context::basic_executor_type<std::allocator<void>,0> >::do_complete
+0x00007ffdc6e48f6a (Unity) asio::detail::win_iocp_io_context::do_one
+0x00007ffdc6e4a2d4 (Unity) asio::detail::win_iocp_io_context::run
+0x00007ffdc6e59cfc (Unity) IOService::Run
+0x00007ffdc6da2026 (Unity) RunAssetImportWorkerClientV2
+0x00007ffdc6da20eb (Unity) RunAssetImporterV2
+0x00007ffdc65aae78 (Unity) Application::InitializeProject
+0x00007ffdc6bb31b5 (Unity) UnityMain
+0x00007ff7f4162fba (Unity) __scrt_common_main_seh
+0x00007ffe7f2ae8d7 (KERNEL32) BaseThreadInitThunk
+0x00007ffe8013c5dc (ntdll) RtlUserThreadStart
+
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Models/as.fbx
+  artifactKey: Guid(dbb5d5876e8583b4c8f3c59c8b65b97f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/as.fbx using Guid(dbb5d5876e8583b4c8f3c59c8b65b97f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0030489 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/models/as.fbx in SourceAssetDB has modification time of '2025-05-23T18:53:10.1976687Z' while content on disk has modification time of '0001-01-01T00:00:00Z' with error code 2
+Stacktrace:
+0x00007ffdc5929dbd (Unity) StackWalker::ShowCallstack
+0x00007ffdc5939d79 (Unity) PlatformStacktrace::GetStacktrace
+0x00007ffdc6ba8bbe (Unity) Stacktrace::GetStacktrace
+0x00007ffdc6de5575 (Unity) GetAssetHashAndValidate
+0x00007ffdc6de3d75 (Unity) AssetVersionBuilder::BuildHashOfSourceAssetArray
+0x00007ffdc6de1efe (Unity) AssetVersionBuilder::BuildAssetVersion
+0x00007ffdc6e20a53 (Unity) CreateAssetVersionBuilder
+0x00007ffdc6e28460 (Unity) ImportToObjects
+0x00007ffdc6e27098 (Unity) ImportAsset
+0x00007ffdc6dc4af1 (Unity) AssetImportWorker::Import
+0x00007ffdc6d76824 (Unity) <lambda_319826b16fd6fd0002c11364be971df3>::operator()
+0x00007ffdc6e5b6de (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)>,asio::io_context::basic_executor_type<std::allocator<void>,0> >::do_complete
+0x00007ffdc6e48f6a (Unity) asio::detail::win_iocp_io_context::do_one
+0x00007ffdc6e4a2d4 (Unity) asio::detail::win_iocp_io_context::run
+0x00007ffdc6e59cfc (Unity) IOService::Run
+0x00007ffdc6da2026 (Unity) RunAssetImportWorkerClientV2
+0x00007ffdc6da20eb (Unity) RunAssetImporterV2
+0x00007ffdc65aae78 (Unity) Application::InitializeProject
+0x00007ffdc6bb31b5 (Unity) UnityMain
+0x00007ff7f4162fba (Unity) __scrt_common_main_seh
+0x00007ffe7f2ae8d7 (KERNEL32) BaseThreadInitThunk
+0x00007ffe8013c5dc (ntdll) RtlUserThreadStart
+
+  ERROR: Build asset version error: assets/models/as.fbx in SourceAssetDB has modification time of '2025-05-23T18:53:10.1976687Z' while content on disk has modification time of '0001-01-01T00:00:00Z' with error code 2
+Stacktrace:
+0x00007ffdc5929dbd (Unity) StackWalker::ShowCallstack
+0x00007ffdc5939d79 (Unity) PlatformStacktrace::GetStacktrace
+0x00007ffdc6ba8bbe (Unity) Stacktrace::GetStacktrace
+0x00007ffdc6de5575 (Unity) GetAssetHashAndValidate
+0x00007ffdc6de3d75 (Unity) AssetVersionBuilder::BuildHashOfSourceAssetArray
+0x00007ffdc6de1efe (Unity) AssetVersionBuilder::BuildAssetVersion
+0x00007ffdc6e20a53 (Unity) CreateAssetVersionBuilder
+0x00007ffdc6e28460 (Unity) ImportToObjects
+0x00007ffdc6e27098 (Unity) ImportAsset
+0x00007ffdc6dc4af1 (Unity) AssetImportWorker::Import
+0x00007ffdc6d76824 (Unity) <lambda_319826b16fd6fd0002c11364be971df3>::operator()
+0x00007ffdc6e5b6de (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)>,asio::io_context::basic_executor_type<std::allocator<void>,0> >::do_complete
+0x00007ffdc6e48f6a (Unity) asio::detail::win_iocp_io_context::do_one
+0x00007ffdc6e4a2d4 (Unity) asio::detail::win_iocp_io_context::run
+0x00007ffdc6e59cfc (Unity) IOService::Run
+0x00007ffdc6da2026 (Unity) RunAssetImportWorkerClientV2
+0x00007ffdc6da20eb (Unity) RunAssetImporterV2
+0x00007ffdc65aae78 (Unity) Application::InitializeProject
+0x00007ffdc6bb31b5 (Unity) UnityMain
+0x00007ff7f4162fba (Unity) __scrt_common_main_seh
+0x00007ffe7f2ae8d7 (KERNEL32) BaseThreadInitThunk
+0x00007ffe8013c5dc (ntdll) RtlUserThreadStart
+
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.011870 seconds.
+  path: Assets/Models/as.fbx
+  artifactKey: Guid(dbb5d5876e8583b4c8f3c59c8b65b97f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/as.fbx using Guid(dbb5d5876e8583b4c8f3c59c8b65b97f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0017176 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/models/as.fbx in SourceAssetDB has modification time of '2025-05-23T18:53:10.1976687Z' while content on disk has modification time of '0001-01-01T00:00:00Z' with error code 2
+Stacktrace:
+0x00007ffdc5929dbd (Unity) StackWalker::ShowCallstack
+0x00007ffdc5939d79 (Unity) PlatformStacktrace::GetStacktrace
+0x00007ffdc6ba8bbe (Unity) Stacktrace::GetStacktrace
+0x00007ffdc6de5575 (Unity) GetAssetHashAndValidate
+0x00007ffdc6de3d75 (Unity) AssetVersionBuilder::BuildHashOfSourceAssetArray
+0x00007ffdc6de1efe (Unity) AssetVersionBuilder::BuildAssetVersion
+0x00007ffdc6e20a53 (Unity) CreateAssetVersionBuilder
+0x00007ffdc6e28460 (Unity) ImportToObjects
+0x00007ffdc6e27098 (Unity) ImportAsset
+0x00007ffdc6dc4af1 (Unity) AssetImportWorker::Import
+0x00007ffdc6d76824 (Unity) <lambda_319826b16fd6fd0002c11364be971df3>::operator()
+0x00007ffdc6e5b6de (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)>,asio::io_context::basic_executor_type<std::allocator<void>,0> >::do_complete
+0x00007ffdc6e48f6a (Unity) asio::detail::win_iocp_io_context::do_one
+0x00007ffdc6e4a2d4 (Unity) asio::detail::win_iocp_io_context::run
+0x00007ffdc6e59cfc (Unity) IOService::Run
+0x00007ffdc6da2026 (Unity) RunAssetImportWorkerClientV2
+0x00007ffdc6da20eb (Unity) RunAssetImporterV2
+0x00007ffdc65aae78 (Unity) Application::InitializeProject
+0x00007ffdc6bb31b5 (Unity) UnityMain
+0x00007ff7f4162fba (Unity) __scrt_common_main_seh
+0x00007ffe7f2ae8d7 (KERNEL32) BaseThreadInitThunk
+0x00007ffe8013c5dc (ntdll) RtlUserThreadStart
+
+  ERROR: Build asset version error: assets/models/as.fbx in SourceAssetDB has modification time of '2025-05-23T18:53:10.1976687Z' while content on disk has modification time of '0001-01-01T00:00:00Z' with error code 2
+Stacktrace:
+0x00007ffdc5929dbd (Unity) StackWalker::ShowCallstack
+0x00007ffdc5939d79 (Unity) PlatformStacktrace::GetStacktrace
+0x00007ffdc6ba8bbe (Unity) Stacktrace::GetStacktrace
+0x00007ffdc6de5575 (Unity) GetAssetHashAndValidate
+0x00007ffdc6de3d75 (Unity) AssetVersionBuilder::BuildHashOfSourceAssetArray
+0x00007ffdc6de1efe (Unity) AssetVersionBuilder::BuildAssetVersion
+0x00007ffdc6e20a53 (Unity) CreateAssetVersionBuilder
+0x00007ffdc6e28460 (Unity) ImportToObjects
+0x00007ffdc6e27098 (Unity) ImportAsset
+0x00007ffdc6dc4af1 (Unity) AssetImportWorker::Import
+0x00007ffdc6d76824 (Unity) <lambda_319826b16fd6fd0002c11364be971df3>::operator()
+0x00007ffdc6e5b6de (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)>,asio::io_context::basic_executor_type<std::allocator<void>,0> >::do_complete
+0x00007ffdc6e48f6a (Unity) asio::detail::win_iocp_io_context::do_one
+0x00007ffdc6e4a2d4 (Unity) asio::detail::win_iocp_io_context::run
+0x00007ffdc6e59cfc (Unity) IOService::Run
+0x00007ffdc6da2026 (Unity) RunAssetImportWorkerClientV2
+0x00007ffdc6da20eb (Unity) RunAssetImporterV2
+0x00007ffdc65aae78 (Unity) Application::InitializeProject
+0x00007ffdc6bb31b5 (Unity) UnityMain
+0x00007ff7f4162fba (Unity) __scrt_common_main_seh
+0x00007ffe7f2ae8d7 (KERNEL32) BaseThreadInitThunk
+0x00007ffe8013c5dc (ntdll) RtlUserThreadStart
+
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Models/as.fbx
+  artifactKey: Guid(dbb5d5876e8583b4c8f3c59c8b65b97f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/as.fbx using Guid(dbb5d5876e8583b4c8f3c59c8b65b97f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0024621 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/models/as.fbx in SourceAssetDB has modification time of '2025-05-23T18:53:10.1976687Z' while content on disk has modification time of '0001-01-01T00:00:00Z' with error code 2
+Stacktrace:
+0x00007ffdc5929dbd (Unity) StackWalker::ShowCallstack
+0x00007ffdc5939d79 (Unity) PlatformStacktrace::GetStacktrace
+0x00007ffdc6ba8bbe (Unity) Stacktrace::GetStacktrace
+0x00007ffdc6de5575 (Unity) GetAssetHashAndValidate
+0x00007ffdc6de3d75 (Unity) AssetVersionBuilder::BuildHashOfSourceAssetArray
+0x00007ffdc6de1efe (Unity) AssetVersionBuilder::BuildAssetVersion
+0x00007ffdc6e20a53 (Unity) CreateAssetVersionBuilder
+0x00007ffdc6e28460 (Unity) ImportToObjects
+0x00007ffdc6e27098 (Unity) ImportAsset
+0x00007ffdc6dc4af1 (Unity) AssetImportWorker::Import
+0x00007ffdc6d76824 (Unity) <lambda_319826b16fd6fd0002c11364be971df3>::operator()
+0x00007ffdc6e5b6de (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)>,asio::io_context::basic_executor_type<std::allocator<void>,0> >::do_complete
+0x00007ffdc6e48f6a (Unity) asio::detail::win_iocp_io_context::do_one
+0x00007ffdc6e4a2d4 (Unity) asio::detail::win_iocp_io_context::run
+0x00007ffdc6e59cfc (Unity) IOService::Run
+0x00007ffdc6da2026 (Unity) RunAssetImportWorkerClientV2
+0x00007ffdc6da20eb (Unity) RunAssetImporterV2
+0x00007ffdc65aae78 (Unity) Application::InitializeProject
+0x00007ffdc6bb31b5 (Unity) UnityMain
+0x00007ff7f4162fba (Unity) __scrt_common_main_seh
+0x00007ffe7f2ae8d7 (KERNEL32) BaseThreadInitThunk
+0x00007ffe8013c5dc (ntdll) RtlUserThreadStart
+
+  ERROR: Build asset version error: assets/models/as.fbx in SourceAssetDB has modification time of '2025-05-23T18:53:10.1976687Z' while content on disk has modification time of '0001-01-01T00:00:00Z' with error code 2
+Stacktrace:
+0x00007ffdc5929dbd (Unity) StackWalker::ShowCallstack
+0x00007ffdc5939d79 (Unity) PlatformStacktrace::GetStacktrace
+0x00007ffdc6ba8bbe (Unity) Stacktrace::GetStacktrace
+0x00007ffdc6de5575 (Unity) GetAssetHashAndValidate
+0x00007ffdc6de3d75 (Unity) AssetVersionBuilder::BuildHashOfSourceAssetArray
+0x00007ffdc6de1efe (Unity) AssetVersionBuilder::BuildAssetVersion
+0x00007ffdc6e20a53 (Unity) CreateAssetVersionBuilder
+0x00007ffdc6e28460 (Unity) ImportToObjects
+0x00007ffdc6e27098 (Unity) ImportAsset
+0x00007ffdc6dc4af1 (Unity) AssetImportWorker::Import
+0x00007ffdc6d76824 (Unity) <lambda_319826b16fd6fd0002c11364be971df3>::operator()
+0x00007ffdc6e5b6de (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)>,asio::io_context::basic_executor_type<std::allocator<void>,0> >::do_complete
+0x00007ffdc6e48f6a (Unity) asio::detail::win_iocp_io_context::do_one
+0x00007ffdc6e4a2d4 (Unity) asio::detail::win_iocp_io_context::run
+0x00007ffdc6e59cfc (Unity) IOService::Run
+0x00007ffdc6da2026 (Unity) RunAssetImportWorkerClientV2
+0x00007ffdc6da20eb (Unity) RunAssetImporterV2
+0x00007ffdc65aae78 (Unity) Application::InitializeProject
+0x00007ffdc6bb31b5 (Unity) UnityMain
+0x00007ff7f4162fba (Unity) __scrt_common_main_seh
+0x00007ffe7f2ae8d7 (KERNEL32) BaseThreadInitThunk
+0x00007ffe8013c5dc (ntdll) RtlUserThreadStart
+
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.012316 seconds.
+  path: Assets/Models/as.fbx
+  artifactKey: Guid(dbb5d5876e8583b4c8f3c59c8b65b97f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/as.fbx using Guid(dbb5d5876e8583b4c8f3c59c8b65b97f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0019345 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/models/as.fbx in SourceAssetDB has modification time of '2025-05-23T18:53:10.1976687Z' while content on disk has modification time of '0001-01-01T00:00:00Z' with error code 2
+Stacktrace:
+0x00007ffdc5929dbd (Unity) StackWalker::ShowCallstack
+0x00007ffdc5939d79 (Unity) PlatformStacktrace::GetStacktrace
+0x00007ffdc6ba8bbe (Unity) Stacktrace::GetStacktrace
+0x00007ffdc6de5575 (Unity) GetAssetHashAndValidate
+0x00007ffdc6de3d75 (Unity) AssetVersionBuilder::BuildHashOfSourceAssetArray
+0x00007ffdc6de1efe (Unity) AssetVersionBuilder::BuildAssetVersion
+0x00007ffdc6e20a53 (Unity) CreateAssetVersionBuilder
+0x00007ffdc6e28460 (Unity) ImportToObjects
+0x00007ffdc6e27098 (Unity) ImportAsset
+0x00007ffdc6dc4af1 (Unity) AssetImportWorker::Import
+0x00007ffdc6d76824 (Unity) <lambda_319826b16fd6fd0002c11364be971df3>::operator()
+0x00007ffdc6e5b6de (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)>,asio::io_context::basic_executor_type<std::allocator<void>,0> >::do_complete
+0x00007ffdc6e48f6a (Unity) asio::detail::win_iocp_io_context::do_one
+0x00007ffdc6e4a2d4 (Unity) asio::detail::win_iocp_io_context::run
+0x00007ffdc6e59cfc (Unity) IOService::Run
+0x00007ffdc6da2026 (Unity) RunAssetImportWorkerClientV2
+0x00007ffdc6da20eb (Unity) RunAssetImporterV2
+0x00007ffdc65aae78 (Unity) Application::InitializeProject
+0x00007ffdc6bb31b5 (Unity) UnityMain
+0x00007ff7f4162fba (Unity) __scrt_common_main_seh
+0x00007ffe7f2ae8d7 (KERNEL32) BaseThreadInitThunk
+0x00007ffe8013c5dc (ntdll) RtlUserThreadStart
+
+  ERROR: Build asset version error: assets/models/as.fbx in SourceAssetDB has modification time of '2025-05-23T18:53:10.1976687Z' while content on disk has modification time of '0001-01-01T00:00:00Z' with error code 2
+Stacktrace:
+0x00007ffdc5929dbd (Unity) StackWalker::ShowCallstack
+0x00007ffdc5939d79 (Unity) PlatformStacktrace::GetStacktrace
+0x00007ffdc6ba8bbe (Unity) Stacktrace::GetStacktrace
+0x00007ffdc6de5575 (Unity) GetAssetHashAndValidate
+0x00007ffdc6de3d75 (Unity) AssetVersionBuilder::BuildHashOfSourceAssetArray
+0x00007ffdc6de1efe (Unity) AssetVersionBuilder::BuildAssetVersion
+0x00007ffdc6e20a53 (Unity) CreateAssetVersionBuilder
+0x00007ffdc6e28460 (Unity) ImportToObjects
+0x00007ffdc6e27098 (Unity) ImportAsset
+0x00007ffdc6dc4af1 (Unity) AssetImportWorker::Import
+0x00007ffdc6d76824 (Unity) <lambda_319826b16fd6fd0002c11364be971df3>::operator()
+0x00007ffdc6e5b6de (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)>,asio::io_context::basic_executor_type<std::allocator<void>,0> >::do_complete
+0x00007ffdc6e48f6a (Unity) asio::detail::win_iocp_io_context::do_one
+0x00007ffdc6e4a2d4 (Unity) asio::detail::win_iocp_io_context::run
+0x00007ffdc6e59cfc (Unity) IOService::Run
+0x00007ffdc6da2026 (Unity) RunAssetImportWorkerClientV2
+0x00007ffdc6da20eb (Unity) RunAssetImporterV2
+0x00007ffdc65aae78 (Unity) Application::InitializeProject
+0x00007ffdc6bb31b5 (Unity) UnityMain
+0x00007ff7f4162fba (Unity) __scrt_common_main_seh
+0x00007ffe7f2ae8d7 (KERNEL32) BaseThreadInitThunk
+0x00007ffe8013c5dc (ntdll) RtlUserThreadStart
+
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Models/as.fbx
+  artifactKey: Guid(dbb5d5876e8583b4c8f3c59c8b65b97f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/as.fbx using Guid(dbb5d5876e8583b4c8f3c59c8b65b97f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0016795 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/models/as.fbx in SourceAssetDB has modification time of '2025-05-23T18:53:10.1976687Z' while content on disk has modification time of '0001-01-01T00:00:00Z' with error code 2
+Stacktrace:
+0x00007ffdc5929dbd (Unity) StackWalker::ShowCallstack
+0x00007ffdc5939d79 (Unity) PlatformStacktrace::GetStacktrace
+0x00007ffdc6ba8bbe (Unity) Stacktrace::GetStacktrace
+0x00007ffdc6de5575 (Unity) GetAssetHashAndValidate
+0x00007ffdc6de3d75 (Unity) AssetVersionBuilder::BuildHashOfSourceAssetArray
+0x00007ffdc6de1efe (Unity) AssetVersionBuilder::BuildAssetVersion
+0x00007ffdc6e20a53 (Unity) CreateAssetVersionBuilder
+0x00007ffdc6e28460 (Unity) ImportToObjects
+0x00007ffdc6e27098 (Unity) ImportAsset
+0x00007ffdc6dc4af1 (Unity) AssetImportWorker::Import
+0x00007ffdc6d76824 (Unity) <lambda_319826b16fd6fd0002c11364be971df3>::operator()
+0x00007ffdc6e5b6de (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)>,asio::io_context::basic_executor_type<std::allocator<void>,0> >::do_complete
+0x00007ffdc6e48f6a (Unity) asio::detail::win_iocp_io_context::do_one
+0x00007ffdc6e4a2d4 (Unity) asio::detail::win_iocp_io_context::run
+0x00007ffdc6e59cfc (Unity) IOService::Run
+0x00007ffdc6da2026 (Unity) RunAssetImportWorkerClientV2
+0x00007ffdc6da20eb (Unity) RunAssetImporterV2
+0x00007ffdc65aae78 (Unity) Application::InitializeProject
+0x00007ffdc6bb31b5 (Unity) UnityMain
+0x00007ff7f4162fba (Unity) __scrt_common_main_seh
+0x00007ffe7f2ae8d7 (KERNEL32) BaseThreadInitThunk
+0x00007ffe8013c5dc (ntdll) RtlUserThreadStart
+
+  ERROR: Build asset version error: assets/models/as.fbx in SourceAssetDB has modification time of '2025-05-23T18:53:10.1976687Z' while content on disk has modification time of '0001-01-01T00:00:00Z' with error code 2
+Stacktrace:
+0x00007ffdc5929dbd (Unity) StackWalker::ShowCallstack
+0x00007ffdc5939d79 (Unity) PlatformStacktrace::GetStacktrace
+0x00007ffdc6ba8bbe (Unity) Stacktrace::GetStacktrace
+0x00007ffdc6de5575 (Unity) GetAssetHashAndValidate
+0x00007ffdc6de3d75 (Unity) AssetVersionBuilder::BuildHashOfSourceAssetArray
+0x00007ffdc6de1efe (Unity) AssetVersionBuilder::BuildAssetVersion
+0x00007ffdc6e20a53 (Unity) CreateAssetVersionBuilder
+0x00007ffdc6e28460 (Unity) ImportToObjects
+0x00007ffdc6e27098 (Unity) ImportAsset
+0x00007ffdc6dc4af1 (Unity) AssetImportWorker::Import
+0x00007ffdc6d76824 (Unity) <lambda_319826b16fd6fd0002c11364be971df3>::operator()
+0x00007ffdc6e5b6de (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)>,asio::io_context::basic_executor_type<std::allocator<void>,0> >::do_complete
+0x00007ffdc6e48f6a (Unity) asio::detail::win_iocp_io_context::do_one
+0x00007ffdc6e4a2d4 (Unity) asio::detail::win_iocp_io_context::run
+0x00007ffdc6e59cfc (Unity) IOService::Run
+0x00007ffdc6da2026 (Unity) RunAssetImportWorkerClientV2
+0x00007ffdc6da20eb (Unity) RunAssetImporterV2
+0x00007ffdc65aae78 (Unity) Application::InitializeProject
+0x00007ffdc6bb31b5 (Unity) UnityMain
+0x00007ff7f4162fba (Unity) __scrt_common_main_seh
+0x00007ffe7f2ae8d7 (KERNEL32) BaseThreadInitThunk
+0x00007ffe8013c5dc (ntdll) RtlUserThreadStart
+
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Models/as.fbx
+  artifactKey: Guid(dbb5d5876e8583b4c8f3c59c8b65b97f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/as.fbx using Guid(dbb5d5876e8583b4c8f3c59c8b65b97f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0025109 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/models/as.fbx in SourceAssetDB has modification time of '2025-05-23T18:53:10.1976687Z' while content on disk has modification time of '0001-01-01T00:00:00Z' with error code 2
+Stacktrace:
+0x00007ffdc5929dbd (Unity) StackWalker::ShowCallstack
+0x00007ffdc5939d79 (Unity) PlatformStacktrace::GetStacktrace
+0x00007ffdc6ba8bbe (Unity) Stacktrace::GetStacktrace
+0x00007ffdc6de5575 (Unity) GetAssetHashAndValidate
+0x00007ffdc6de3d75 (Unity) AssetVersionBuilder::BuildHashOfSourceAssetArray
+0x00007ffdc6de1efe (Unity) AssetVersionBuilder::BuildAssetVersion
+0x00007ffdc6e20a53 (Unity) CreateAssetVersionBuilder
+0x00007ffdc6e28460 (Unity) ImportToObjects
+0x00007ffdc6e27098 (Unity) ImportAsset
+0x00007ffdc6dc4af1 (Unity) AssetImportWorker::Import
+0x00007ffdc6d76824 (Unity) <lambda_319826b16fd6fd0002c11364be971df3>::operator()
+0x00007ffdc6e5b6de (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)>,asio::io_context::basic_executor_type<std::allocator<void>,0> >::do_complete
+0x00007ffdc6e48f6a (Unity) asio::detail::win_iocp_io_context::do_one
+0x00007ffdc6e4a2d4 (Unity) asio::detail::win_iocp_io_context::run
+0x00007ffdc6e59cfc (Unity) IOService::Run
+0x00007ffdc6da2026 (Unity) RunAssetImportWorkerClientV2
+0x00007ffdc6da20eb (Unity) RunAssetImporterV2
+0x00007ffdc65aae78 (Unity) Application::InitializeProject
+0x00007ffdc6bb31b5 (Unity) UnityMain
+0x00007ff7f4162fba (Unity) __scrt_common_main_seh
+0x00007ffe7f2ae8d7 (KERNEL32) BaseThreadInitThunk
+0x00007ffe8013c5dc (ntdll) RtlUserThreadStart
+
+  ERROR: Build asset version error: assets/models/as.fbx in SourceAssetDB has modification time of '2025-05-23T18:53:10.1976687Z' while content on disk has modification time of '0001-01-01T00:00:00Z' with error code 2
+Stacktrace:
+0x00007ffdc5929dbd (Unity) StackWalker::ShowCallstack
+0x00007ffdc5939d79 (Unity) PlatformStacktrace::GetStacktrace
+0x00007ffdc6ba8bbe (Unity) Stacktrace::GetStacktrace
+0x00007ffdc6de5575 (Unity) GetAssetHashAndValidate
+0x00007ffdc6de3d75 (Unity) AssetVersionBuilder::BuildHashOfSourceAssetArray
+0x00007ffdc6de1efe (Unity) AssetVersionBuilder::BuildAssetVersion
+0x00007ffdc6e20a53 (Unity) CreateAssetVersionBuilder
+0x00007ffdc6e28460 (Unity) ImportToObjects
+0x00007ffdc6e27098 (Unity) ImportAsset
+0x00007ffdc6dc4af1 (Unity) AssetImportWorker::Import
+0x00007ffdc6d76824 (Unity) <lambda_319826b16fd6fd0002c11364be971df3>::operator()
+0x00007ffdc6e5b6de (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)>,asio::io_context::basic_executor_type<std::allocator<void>,0> >::do_complete
+0x00007ffdc6e48f6a (Unity) asio::detail::win_iocp_io_context::do_one
+0x00007ffdc6e4a2d4 (Unity) asio::detail::win_iocp_io_context::run
+0x00007ffdc6e59cfc (Unity) IOService::Run
+0x00007ffdc6da2026 (Unity) RunAssetImportWorkerClientV2
+0x00007ffdc6da20eb (Unity) RunAssetImporterV2
+0x00007ffdc65aae78 (Unity) Application::InitializeProject
+0x00007ffdc6bb31b5 (Unity) UnityMain
+0x00007ff7f4162fba (Unity) __scrt_common_main_seh
+0x00007ffe7f2ae8d7 (KERNEL32) BaseThreadInitThunk
+0x00007ffe8013c5dc (ntdll) RtlUserThreadStart
+
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.008324 seconds.
+  path: Assets/Models/as.fbx
+  artifactKey: Guid(dbb5d5876e8583b4c8f3c59c8b65b97f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/as.fbx using Guid(dbb5d5876e8583b4c8f3c59c8b65b97f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0021175 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/models/as.fbx in SourceAssetDB has modification time of '2025-05-23T18:53:10.1976687Z' while content on disk has modification time of '0001-01-01T00:00:00Z' with error code 2
+Stacktrace:
+0x00007ffdc5929dbd (Unity) StackWalker::ShowCallstack
+0x00007ffdc5939d79 (Unity) PlatformStacktrace::GetStacktrace
+0x00007ffdc6ba8bbe (Unity) Stacktrace::GetStacktrace
+0x00007ffdc6de5575 (Unity) GetAssetHashAndValidate
+0x00007ffdc6de3d75 (Unity) AssetVersionBuilder::BuildHashOfSourceAssetArray
+0x00007ffdc6de1efe (Unity) AssetVersionBuilder::BuildAssetVersion
+0x00007ffdc6e20a53 (Unity) CreateAssetVersionBuilder
+0x00007ffdc6e28460 (Unity) ImportToObjects
+0x00007ffdc6e27098 (Unity) ImportAsset
+0x00007ffdc6dc4af1 (Unity) AssetImportWorker::Import
+0x00007ffdc6d76824 (Unity) <lambda_319826b16fd6fd0002c11364be971df3>::operator()
+0x00007ffdc6e5b6de (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)>,asio::io_context::basic_executor_type<std::allocator<void>,0> >::do_complete
+0x00007ffdc6e48f6a (Unity) asio::detail::win_iocp_io_context::do_one
+0x00007ffdc6e4a2d4 (Unity) asio::detail::win_iocp_io_context::run
+0x00007ffdc6e59cfc (Unity) IOService::Run
+0x00007ffdc6da2026 (Unity) RunAssetImportWorkerClientV2
+0x00007ffdc6da20eb (Unity) RunAssetImporterV2
+0x00007ffdc65aae78 (Unity) Application::InitializeProject
+0x00007ffdc6bb31b5 (Unity) UnityMain
+0x00007ff7f4162fba (Unity) __scrt_common_main_seh
+0x00007ffe7f2ae8d7 (KERNEL32) BaseThreadInitThunk
+0x00007ffe8013c5dc (ntdll) RtlUserThreadStart
+
+  ERROR: Build asset version error: assets/models/as.fbx in SourceAssetDB has modification time of '2025-05-23T18:53:10.1976687Z' while content on disk has modification time of '0001-01-01T00:00:00Z' with error code 2
+Stacktrace:
+0x00007ffdc5929dbd (Unity) StackWalker::ShowCallstack
+0x00007ffdc5939d79 (Unity) PlatformStacktrace::GetStacktrace
+0x00007ffdc6ba8bbe (Unity) Stacktrace::GetStacktrace
+0x00007ffdc6de5575 (Unity) GetAssetHashAndValidate
+0x00007ffdc6de3d75 (Unity) AssetVersionBuilder::BuildHashOfSourceAssetArray
+0x00007ffdc6de1efe (Unity) AssetVersionBuilder::BuildAssetVersion
+0x00007ffdc6e20a53 (Unity) CreateAssetVersionBuilder
+0x00007ffdc6e28460 (Unity) ImportToObjects
+0x00007ffdc6e27098 (Unity) ImportAsset
+0x00007ffdc6dc4af1 (Unity) AssetImportWorker::Import
+0x00007ffdc6d76824 (Unity) <lambda_319826b16fd6fd0002c11364be971df3>::operator()
+0x00007ffdc6e5b6de (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)>,asio::io_context::basic_executor_type<std::allocator<void>,0> >::do_complete
+0x00007ffdc6e48f6a (Unity) asio::detail::win_iocp_io_context::do_one
+0x00007ffdc6e4a2d4 (Unity) asio::detail::win_iocp_io_context::run
+0x00007ffdc6e59cfc (Unity) IOService::Run
+0x00007ffdc6da2026 (Unity) RunAssetImportWorkerClientV2
+0x00007ffdc6da20eb (Unity) RunAssetImporterV2
+0x00007ffdc65aae78 (Unity) Application::InitializeProject
+0x00007ffdc6bb31b5 (Unity) UnityMain
+0x00007ff7f4162fba (Unity) __scrt_common_main_seh
+0x00007ffe7f2ae8d7 (KERNEL32) BaseThreadInitThunk
+0x00007ffe8013c5dc (ntdll) RtlUserThreadStart
+
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
