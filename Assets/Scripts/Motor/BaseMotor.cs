@@ -92,7 +92,7 @@ namespace Epitome
 		    MovingPlatformPostMove();
 
             // Storing Velocity data for next frame
-            LastDirection = new Vector3(MoveVector.x, 0, MoveVector.z);
+            LastDirection = MoveVector;
             HorizontalVelocity = LastDirection.magnitude;
 
             // Tell the animator state machine how we're doing
