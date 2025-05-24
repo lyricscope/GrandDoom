@@ -79,12 +79,13 @@ public static class MotorHelper
 
     /// <summary>
     /// Returns rotation facing move </summary>
-    public static Quaternion FaceDirection(Vector3 move)
+    public static Quaternion FaceDirection(Vector3 move, Transform original)
 	{
 		Vector3 dir = move;
 		MotorHelper.KillVertical (ref dir);
 		if (dir == Vector3.zero)
-			return Quaternion.identity;
+			return original.rotation;
+		
 		return Quaternion.LookRotation (dir, Vector3.up);
 	}
 }

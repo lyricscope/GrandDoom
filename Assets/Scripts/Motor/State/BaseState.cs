@@ -46,7 +46,7 @@ namespace Epitome
         }
         public virtual Quaternion ProcessRotation(Vector3 input)
         {
-            return MotorHelper.FaceDirection(motor.MoveVector);
+            return MotorHelper.FaceDirection(input, transform);
         }
         public virtual void AnimationEnded()
         {

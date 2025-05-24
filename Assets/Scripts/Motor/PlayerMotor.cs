@@ -66,11 +66,11 @@ namespace Epitome
 	    private Vector3 PoolInput()
 	    {
             Vector3 dir = InputManager.Instance.MoveInputDirection;
-
-		    if (dir.sqrMagnitude > 1)
+            
+            if (dir.sqrMagnitude > 1)
 			    dir.Normalize ();
 
-		    return dir;
+            return dir;
 	    }
     }
 }
